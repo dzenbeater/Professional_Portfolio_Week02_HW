@@ -5,11 +5,11 @@ body {
 
 section {
     height: 500px;
-    background-color:#cfcfcf;
+    background-color:#4e4e50;;
 }
 
 .hero {
-    background-color:#333333;
+    background-color: #1a1a1d;
     height: 100vh;
     
     font-size: 60px;
@@ -19,6 +19,7 @@ section {
 nav {
     display: flex;
     justify-content: space-between;
+    
 }
 
 ul {
@@ -30,17 +31,18 @@ ul {
 
 li {
   text-decoration: none;
-  color:#cfcfcf;
+  color:#4e4e50;
 }
 
 h1 {
-    font-size: 90px;
-    
+    font-size: 120px;
+    font-family: 'Cedarville Cursive', cursive;
     font-weight:900;
 }
 
 h2 {
     font-size: 70px;
+    font-family: 'Cedarville Cursive', cursive;
     font-weight:900;
 }
 
@@ -63,7 +65,7 @@ p {
 
 .heroIntro {
     margin-left: 100px;
-    color:#cfcfcf;
+    color:#c3073f;
     margin-bottom:300px;
 }
 
@@ -71,8 +73,11 @@ p {
     width: 120px;
     height: 90px;
     border-radius: 100px;
-   background-color: #9c9c9c;
+   background-color: #1A1A1D;
+   border-color: #6f2232;
     text-align: center;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 90px;
     
 }
 
@@ -85,11 +90,11 @@ footer {
 
 
 .button:hover {
-    background-color: #131516;
+    background-color: #1A1A1D;
 }
 
 .button:active {
-    background-color:#0F0F0F;
+    background-color:#1A1A1D;
     color: #373D3F;
    
 }
