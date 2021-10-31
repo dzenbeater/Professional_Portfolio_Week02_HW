@@ -1,0 +1,134 @@
+body {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+
+section {
+    height: 500px;
+    background-color:#cfcfcf;
+}
+
+.hero {
+    background-color:#333333;
+    height: 100vh;
+    
+    font-size: 60px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+li {
+  text-decoration: none;
+  color:#cfcfcf;
+}
+
+h1 {
+    font-size: 90px;
+    
+    font-weight:900;
+}
+
+h2 {
+    font-size: 70px;
+    font-weight:900;
+}
+
+p {
+    
+    font: weight 500;
+    font-size:35px;
+  
+}
+.heroBody {
+    display: flex;
+    
+    height: 100%;
+    justify-content:space-between; 
+    margin-left:200px;
+    align-items:center;
+
+}
+
+
+.heroIntro {
+    margin-left: 100px;
+    color:#cfcfcf;
+    margin-bottom:300px;
+}
+
+.button { 
+    width: 120px;
+    height: 90px;
+    border-radius: 100px;
+   background-color: #9c9c9c;
+    text-align: center;
+    
+}
+
+
+footer {
+    height: 500px;
+    background-color: gray;
+
+}
+
+
+.button:hover {
+    background-color: #131516;
+}
+
+.button:active {
+    background-color:#0F0F0F;
+    color: #373D3F;
+   
+}
+
+.links {
+    padding-bottom: 200px;
+}
+  
+
+.logo {
+height:200px;
+margin:30px;
+}
+
+.porto {
+    margin: 100px;
+}
+
+.bodyinfo {
+    display:flex;
+    justify-content:space-around;
+    padding: 200px;
+
+}
+
+.Pic {
+    width: 400px;
+ 
+    border-radius:100px;
+}
+
+.avatar {
+    display:flex;
+    align-items: center;
+
+}
+
+.work1 {
+    width:200px;
+    height: 500px;
+    border: 1px solid black;
+}
