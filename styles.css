@@ -1,5 +1,6 @@
 body {
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    
 }
 
 
@@ -57,7 +58,7 @@ p {
     
     height: 100%;
     justify-content:space-between; 
-    margin-left:200px;
+    padding-left:1000px;
     align-items:center;
 
 }
@@ -75,9 +76,11 @@ p {
     border-radius: 100px;
    background-color: #1A1A1D;
    border-color: #6f2232;
+   border-width: 2px;
     text-align: center;
     font-family: 'Cedarville Cursive', cursive;
     font-size: 90px;
+    padding-bottom: 80px;
     
 }
 
@@ -122,18 +125,42 @@ margin:30px;
 
 .Pic {
     width: 400px;
+    float:right;
  
     border-radius:100px;
 }
 
-.avatar {
-    display:flex;
+/*.Avatar {
+    
     align-items: center;
+    padding-right:20px;
 
+}*/
+
+.bio {
+    margin-left:20px;
+    float:left;
+    justify-content: space-around;
 }
 
 .work1 {
-    width:200px;
-    height: 500px;
+    width:25%;
+    height:500px;
     border: 1px solid black;
+    float:left;
+   
+}
+
+.work2 {
+    width:25%;
+    height:500px;
+    float:left;
+   
+}
+
+.work3 {
+
+    width: 25%;
+    height:500px;
+    clear:both;
 }
