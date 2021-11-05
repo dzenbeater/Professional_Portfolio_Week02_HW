@@ -12,7 +12,7 @@ section {
 .hero {
     background-color: #1a1a1d;
     height: 100vh;
-    
+    font-family: 'Zen Tokyo Zoo', cursive;
     font-size: 60px;
 
 }
@@ -37,13 +37,13 @@ li {
 
 h1 {
     font-size: 120px;
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Zen Tokyo Zoo', cursive;
     font-weight:900;
 }
 
 h2 {
     font-size: 70px;
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Zen Tokyo Zoo', cursive;
     font-weight:900;
 }
 
@@ -51,6 +51,7 @@ p {
     
     font: weight 500;
     font-size:35px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
   
 }
 .heroBody {
@@ -78,7 +79,7 @@ p {
    border-color: #6f2232;
    border-width: 2px;
     text-align: center;
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Zen Tokyo Zoo', cursive;
     font-size: 90px;
     padding-bottom: 80px;
     
